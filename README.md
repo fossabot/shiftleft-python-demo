@@ -1,4 +1,6 @@
 # flask-webgoat
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmautaugli%2Fshiftleft-python-demo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmautaugli%2Fshiftleft-python-demo?ref=badge_shield)
+
 
 flask-webgoat is a deliberately-vulnerable application written with the Flask
 web framework.
@@ -55,3 +57,7 @@ $ grep vulnerability . -R -n | grep -v README
 ./run.py:7:    # vulnerability: Broken Access Control
 ./run.py:9:    # vulnerability: Security Misconfiguration
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmautaugli%2Fshiftleft-python-demo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmautaugli%2Fshiftleft-python-demo?ref=badge_large)
